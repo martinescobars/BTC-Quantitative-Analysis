@@ -2,7 +2,7 @@
 
 ### Martin Escobar
 
-<span style="font-size:0.5em;">*__The information presented reflects the views and assumptions of The Author(s) at the time of publication. Please note that this research may not be updated and The Author(s)' current views may materially differ from those presented without notice. The results will not be updated as The Author(s)' internal models change, or any information upon which the models relies upon changes.__*
+<span style="font-size:0.1em;">*__The information presented reflects the views and assumptions of The Author(s) at the time of publication. Please note that this research may not be updated and The Author(s)' current views may materially differ from those presented without notice. The results will not be updated as The Author(s)' internal models change, or any information upon which the models relies upon changes.__*
 </span>
 
 V1 published 5/19/2024.

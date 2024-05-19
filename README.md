@@ -1,12 +1,42 @@
-# BTC-Quantitative-Abalysis
+# BTC-Quantitative-Analysis
 
-## *Martin Escobar*
+### Martin Escobar
 
 *__The information presented reflects the views and assumptions of The Author(s) at the time of publication. Please note that this research may not be updated and The Author(s)' current views may materially differ from those presented without notice. The results will not be updated as The Author(s)' internal models change, or any information upon which the models relies upon changes.__*
 
-Hola 
+V1 published 5/19/2024.
 
-pibe...
+This repository enables technical quantitative analysis and risk-return profiling for Bitcoin. Additionally, it helps identify the pros and cons of including Bitcoin in a total portfolio allocation strategy. For the dataset, we'll be using the end of day prices from Yahoo Finance through yfinance package.
+
+
+## Project Description
+
+The authors used quantitative analysis methods to examine the risk and return properties of Bitcoin.
+
+Description of each section in the script:
+
+- **Helping Functions**: Contains utility functions.
+- **Project Functions**: Contains functions for quantitative analysis and plotting outputs.
+- **Data Fetching**: Allows users to fetch closing prices for a given financial asset from Yahoo Finance using the yfinance package.
+- **Quantitative Analysis**: Enables users to implement the project functions.
+- **Asset Analysis Within a Total Portfolio**: Helps users identify the pros and cons of including Bitcoin in a total portfolio allocation strategy.
+- **Key Findings**: Summarizes the major findings from the analysis observations. 
+
+
+## Usage
+
+```python
+# what is the 3-year rolling sharpe ratio of Bitcoin?
+
+asset = 'btc_usd'
+df = data[['date', asset]]
+rolling_period = 3
+observed_periods = 6
+
+plot_rolling_annualized_sharpe(df, rolling_period, observed_periods)
+
+```
+
 
 ## The Author(s)
 Martin Escobar
@@ -15,10 +45,12 @@ LinkedIn: [mescobars](https://www.linkedin.com/in/mescobars/)
 
 Twitter: [@m_escobars](https://twitter.com/m_escobars)
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Disclosure:
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss your proposed changes.
+
+
+## Disclosure
 
 You may not use the material for commercial purposes without first obtaining written permission.
 
